@@ -33,6 +33,7 @@
             this.textBoxLoops = new System.Windows.Forms.TextBox();
             this.labelInfo = new System.Windows.Forms.Label();
             this.labelResult = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBoxResult
@@ -79,11 +80,21 @@
             this.labelResult.TabIndex = 4;
             this.labelResult.Text = "Values:";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(207, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(167, 25);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Harmonic series";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 867);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelResult);
             this.Controls.Add(this.labelInfo);
             this.Controls.Add(this.textBoxLoops);
@@ -103,6 +114,7 @@
         private System.Windows.Forms.TextBox textBoxLoops;
         private System.Windows.Forms.Label labelInfo;
         private System.Windows.Forms.Label labelResult;
+        private System.Windows.Forms.Label label1;
     }
 }
 
